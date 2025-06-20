@@ -1,0 +1,101 @@
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+    outline: 5px solid burlywood;
+}
+
+
+body {
+    background-color: #191919;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__list{
+    padding-left: 150px;
+    display: flex;
+    gap: 225px;
+}
+
+.header__link{
+    color: aliceblue;
+    size: 14px;
+    weight: 500;
+    height: 1.15;
+    spacing: 0.28px;
+}
+
+.reaper{
+    padding-top: 50px;
+}
+
+
+.reaper__box{
+display: flex;               
+align-items: flex-start;     
+gap: 20px;
+}
+
+.reaper__img{
+    width: 600px;
+
+}
+
+.reaper__div{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.reaper__title{
+    color: aliceblue;
+    size: 30px;
+    margin-bottom: 25px;
+}
+
+.reaper__text{
+    color: aliceblue;
+    size: 25px;
+    max-width: 300px;
+    line-height: 1.4;
+}
+
+
+.crow{
+    padding-top: 50px;
+}
+
+.crow__box{
+    display: flex;               
+    align-items: flex-start;
+gap: 20px;
+}
+
+
+.crow__div{
+    padding: 20px; 
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+.crow__img{
+    width: 600px;
+}
+
+.crow__title{
+    color: aliceblue;
+    size: 30px;
+    margin-bottom: 25px;
+}
+
+.crow__text{
+    color: aliceblue;
+    size: 25px;
+    max-width: 300px;
+    line-height: 1.4;
+}

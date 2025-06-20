@@ -1,0 +1,50 @@
+/* $bcg-color: #191919; */
+
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+    outline: 5px solid burlywood;
+}
+
+
+body {
+    background-color: #191919;
+}
+
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__list{
+    padding-left: 150px;
+    display: flex;
+    gap: 225px;
+}
+
+.header__link{
+    color: aliceblue;
+    size: 14px;
+    weight: 500;
+    height: 1.15;
+    spacing: 0.28px;
+}
+
+
+footer{
+    padding-top: 200px;
+display: flex;
+text-align: center;
+}
+
+
+.footer__title{
+    color: aliceblue;
+    size: 40px;
+    weight: 500;
+    height: 1.15;
+    spacing: 0.28px;
+}

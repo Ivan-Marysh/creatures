@@ -5,7 +5,7 @@
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 10px;
-    outline: 5px solid burlywood;
+    /* outline: 5px solid burlywood; */
 }
 
 
@@ -28,9 +28,9 @@ body {
 .header__link{
     color: aliceblue;
     size: 14px;
-    weight: 500;
-    height: 1.15;
-    spacing: 0.28px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.28px;
 }
 
 
@@ -43,8 +43,8 @@ text-align: center;
 
 .footer__title{
     color: aliceblue;
-    size: 40px;
-    weight: 500;
-    height: 1.15;
-    spacing: 0.28px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.28px;
 }
